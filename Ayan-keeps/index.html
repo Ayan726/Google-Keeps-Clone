@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayan Keep</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mukta&family=Poppins&family=Ubuntu&family=Varela+Round&family=Work+Sans:ital,wght@0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <nav class="heading">
+        <div id="logo-container">
+            <i class="fa-solid fa-note-sticky logo"></i>
+        <span>keep</span>
+        </div>
+        <div class="nav-right-container">
+            
+            <div class="search-div">
+                <i class="fa-solid fa-magnifying-glass" style="font-size: 1.1rem;"></i>
+                <input type="text" id="searchbar" placeholder="Search" oninput="getdiv()" onclick="incWidth()">
+            </div>
+
+            <button class="dark-mode" onclick="activateDarkmode()"><span class="dark-round"><i class="fa-solid fa-moon" style="text-align: center;margin-top: 3px;"></i></span></button>
+
+        </div>
+    </nav>
+    <div class="button-div">
+        <button class="add-btn"><span id="plus"><i id="icon" class="fa-solid fa-plus"></i></span><span id="btn-text">Add Notes</span></button>
+    </div>
+    <div id="note-container">
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
