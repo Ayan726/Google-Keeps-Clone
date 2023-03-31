@@ -3,7 +3,7 @@ This is a simple clone of Google Keep, built with vanilla JavaScript, HTML, and 
 
 # Getting Started
 To get started with the application, you can clone the repository to your local machine using the following command:
-git clone https://github.com/your-username/google-keep-clone.git
+git clone https://github.com/Ayan726/Google-Keeps-Clone.git
 
 Then, open the index.html file in your web browser to access the application.
 
@@ -34,3 +34,6 @@ The application uses LocalStorage to store the user's notes and preferences. Thi
 
 # Contributing
 If you would like to contribute to the project, you can fork the repository and create a pull request with your changes. Please ensure that your changes are well-documented and tested before submitting the pull request.
+
+# Link to the Website
+https://ayan-keep.netlify.app/
