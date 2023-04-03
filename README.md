@@ -35,5 +35,9 @@ The application uses LocalStorage to store the user's notes and preferences. Thi
 # Contributing
 If you would like to contribute to the project, you can fork the repository and create a pull request with your changes. Please ensure that your changes are well-documented and tested before submitting the pull request.
 
+# Credits
+Part of this project is inspired by Thapa technical's youtube video.  
+Link - https://youtu.be/KGkiIBTq0y0
+
 # Link to the Website
 https://ayan-keep.netlify.app/
